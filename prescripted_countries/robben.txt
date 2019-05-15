@@ -1,0 +1,73 @@
+robben = {
+    
+	name = "rob_emp"
+    adjective = "Robbisch"
+    spawn_enabled = yes
+    
+    ship_prefix = "ROB"
+    
+    species = {
+        class="MOL"
+		portrait="mol19"
+		name="Robbe"
+		plural="Robben"
+		adjective="Robbisch"
+		name_list="rob"
+		trait="trait_quarrelsome"
+		trait="trait_decadent"
+        trait="trait_wasteful"
+		trait="trait_rapid_breeders"
+		trait="trait_very_strong"
+    }
+	
+    room="personality_fanatic_purifier_room"
+    
+    authority = "auth_imperial"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_warrior_culture"
+	}
+	government="gov_blood_court"
+    
+    ethic = "ethic_militarist"
+	ethic = "ethic_fanatic_xenophobe"
+    
+    planet_name = "Robbo"
+	planet_class = "pc_ocean"
+	system_name = "Robbo"
+    
+    graphical_culture = "molluscoid_01"
+	city_graphical_culture = "molluscoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "domination"
+			file = "domination_7.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+    
+	ruler={
+		gender=male
+		name="Robbolf Robbler"
+		portrait="mol19"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Großkaiser"
+		heir_title="Kurprinz"
+		ruler_title_female="Großkaiserin"
+		heir_title_female="Kurprinzessin"
+	}
+    
+    spawn_as_fallen=yes
+}

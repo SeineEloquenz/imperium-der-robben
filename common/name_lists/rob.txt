@@ -1,0 +1,192 @@
+### Template
+rob = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+            Robbstar
+		}
+	}
+
+    fleet_names = {
+		random_names = {
+			"Robbenstaffel" "Robbenbefreiungsflotte"
+		}
+		sequential_name = "%O% Robbenbefreiungsflotte"
+	}
+    
+	ship_class_names = {
+		generic = {
+			 "Wächter von Robbo" "Robbo" "Robbstar 2"
+		}		
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Robbenstaffel"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Robbendivision"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Robbensklaven"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Robbenklone"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Roborobbenfront"
+		}
+        
+        robotic_defense_army = {
+			sequential_name = "%O% Roborobbenverteidiger"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Anrobbiden-Armee"
+		}
+        
+        android_defense_army = {
+			sequential_name = "%O% Anrobbiden-Verteidiger"
+		}
+		
+		psionic_army = { 
+			sequential_name = "Telerobbe %R%"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Robbenhorde"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Todesrobbenkommando"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Robbanus Robburn Robban Robbuscant "Robbund Kaas" Robbyyyk Robbaria Robbarion 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+        
+        pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				"Robbolf Robbler" "Joseph Roebbels" " Robbmann Röbbring" "Kim Rob-Un" "Kim Rob-Il" "Robbito Robbulini" "Rob Schenk von Robbenberg" "Robbo von Bismarck" "Robbar von Robbernich" "Barack Robbama" "Robbald Trump" "Robbis Khan" "Robbois Robblande"
+			}
+			
+			# Always combined with a second name
+			first_names = { Robbolf Joseph Robbmann Robbito Robbimir "Rob Schenk" Robbo Robbar Robbald Robbois Robbis Robbiana Robbizabeth Robbela Robbandra Robbatrix
+			}
+			
+			# Always combined with a first name
+			second_names = { Robbskovsky Robbler Roebbels Röbbring Robbulini "von Robbenberg" Robbenauer "von Robbernich" Robbama Robblande Robbuschmeyer Erobban
+			}
+			
+			regnal_first_names = {
+				Robbolf Robbito Robbimir Robbald Robbiana Robbizabeth Robbela Robbandra Robbatrix
+			}
+			
+			regnal_second_names = {
+				"von Robbernich" Robbler "von Robbenberg" "von Robbenzollern" "von Robbsburg" Erobban
+			}
+		}
+	}
+}
